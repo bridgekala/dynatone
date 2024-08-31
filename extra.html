@@ -1,0 +1,248 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="shortcut icon" href="/img/icon.jpg" type="image/x-icon"> 
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/locomotive-scroll@3.5.4/dist/locomotive-scroll.min.css">
+
+</head>
+<body>
+    <div class="main">
+       <special-header></special-header>
+
+                <div class="head">
+                    <video id="head" autoplay loop muted src="./img/Website motion with sound.webm"></video>
+                    <div class="mute-icon" id="muteIcon">
+                        <img src="./img/volume up.png" alt="Mute/Unmute">
+                    </div>
+                    <script>
+                        const video = document.getElementById('head');
+                        const muteIcon = document.getElementById('muteIcon');
+                        const iconImage = muteIcon.querySelector('img');
+
+                        muteIcon.addEventListener('click', function () {
+                            if (video.muted) {
+                                video.muted = false;
+                                iconImage.src = './img/volume up.png'; // Change to your unmute icon
+                            } else {
+                                video.muted = true;
+                                iconImage.src = './img/volume down.png'; // Change to your mute icon
+                            }
+                        });
+                    </script>
+                </div>
+                
+              
+
+
+        <div class="page1">
+            <div class="page1-heading">
+                <h1>Our Best <span>loud sound</span> quality <br> Get Even Better</h1>
+            </div>
+            <div class="img-div">
+                <div class="img1">
+                    <img  data-aos="fade-right" src="img/sp1.webp" alt="">
+                    <h3>Best Speakers For Car</h3>
+                </div>
+                <div class="img2">
+                    <img src="img/woofer.webp" alt="">
+                    <h3>Best Speakers For Car</h3>
+                </div>
+                <div class="img3">
+                    <img  data-aos="fade-left" src="img/sp2.webp" alt="">
+                    <h3>Best Speakers For Car</h3>
+                </div>
+            
+            </div>
+        </div>
+
+        <!--page1 mobile -->
+        <div class="page1-mobile">
+            <div class="page-heading-mobile">
+                <h1>Our Best <span>loud sound</span> quality <br> Get Even Better</h1>
+            </div>
+            <div class="img-div-mobile">
+                <div class="img1-mobile">
+                    <img src="img/sp1.webp" alt="">
+                    <h3>Best Speakers For Car</h3>
+                </div>
+                <div class="img2-mobile">
+                    <img src="img/woofer.webp" alt="">
+                    <h3>Best Speakers For Car</h3>
+                </div>
+                <div class="img3-mobile">
+                    <img src="img/sp2.webp" alt="">
+                    <h3>Best Speakers For Car</h3>
+                </div>
+        
+            </div>
+        </div>
+         <!-- end -->
+
+        <div class="page2">
+             <h1>Our Best <span>loud sound</span> quality <br> Get Even Better</h1>
+                <div class="categories">
+                    <div class="item">
+                       <a href=""><img src="./img/Speaker.gif"> </a>
+                       <a href=""> <img src="img/Emplefier.gif"></a>  
+                       <a href=""> <img src="./img/Mixer.gif"></a> 
+                       <a href=""><img src="img/Column.gif"></a> 
+                       <a href=""><img src="img/magnet.gif"></a>
+                       <a href=""><img src="img/Mic Reciever.gif"></a> 
+                    </div>
+                    <!-- Add more items as needed -->
+                </div>
+                
+                
+                <div class="inner">
+                    <div class="box1">
+                        <video autoplay loop muted src="./img/web-dynatone-Spaeker 2 resize.webm"></video>
+                    </div>
+                    <div class="box2">
+                        <video autoplay loop muted src="./img/web-dynatone-Spaeker.webm"></video>
+                    </div>
+                </div>
+        </div>
+
+
+        <!-- page2 mobile -->
+        <div class="page2-mobile">
+        <h1>Our Best <span>loud sound</span> quality <br> Get Even Better</h1>
+            <div class="categories-mobile">
+                <div class="item-mobile">
+                    <img src="img/1.jpg" alt="Image 1">
+                    <img src="img/8.jpg" alt="">
+                    <img src="./img/7.jpg" alt="Image 3">
+                <img src="img/6.jpg" alt="Image 4">
+                <img src="img/5.jpg" alt="Image 5">
+                <img src="img/2.jpg" alt="Image 6">
+                </div>
+               
+            </div>
+        
+        
+            <div class="inner-mobile">
+                <div class="box1-mobile">
+                   <video autoplay loop muted src="./img/web-dynatone-Spaeker 2 resize.webm"></video>
+                </div>
+                <div class="box2-mobile">
+                   <video autoplay loop muted src="./img/web-dynatone-Spaeker.webm"></video>
+                </div>
+            </div>
+        </div>
+         <!-- end -->
+   
+
+        <div class="page3">
+            <img src="img/1920 X 365.png" alt="">
+        </div>
+
+
+        <div class="page4">
+            <h1>Our Best <span>loud sound</span> quality <br> Get Even Better</h1>
+            <canvas></canvas>
+        </div>
+        <div class="page5">
+            <h1><span>Front.</span> A singular piece of three-dimensionally formed laminated glass flows into an aluminum alloy
+                frame that curves to wrap around your face.</h1>
+        </div>
+        <div class="page6">
+            <h1><span>Light Seal.</span> The Light Seal gently flexes to conform to your face, delivering a precise fit while
+                blocking out stray light.</h1>
+        </div>
+        <div class="page7">
+            <h1><span>Head bands.</span> The Solo Knit Band provides cushioning, breathability, and stretch, and a Fit Dial lets
+                you adjust Apple Vision Pro precisely to your head. The Dual Loop Band offers an additional option for a
+                personalized fit.</h1>
+        </div>
+        <div class="page8">
+            <h1><span>Power.</span> The external battery supports up to 2 hours of general use and up to 2.5 hours of video
+                playback.1</h1>
+        </div>
+        <div class="page9">
+            <h1><span>Sound.</span> Speakers positioned close to your ears deliver rich Spatial Audio while keeping you aware of
+                your surroundings.</h1>
+        </div>
+        <div class="page10">
+            <h1><span>EyeSight.</span> An outward display reveals your eyes while wearing Apple Vision Pro, letting others know
+                when you are using apps or fully immersed.</h1>
+        </div>
+
+        <div class="page11">
+            <h1>Explore <span>Bestsellers</span></h1>
+            <div class="wrapper">
+                <div class="carousel">
+                   <video autoplay loop muted src="./img/mixer animation final 590x437.webm"></video>
+                    <video autoplay loop muted src="./img/mic 2 animation RAW 590x437.webm"></video>
+                   <video autoplay loop muted src="./img/column animation 590x437 final.webm"></video>
+                    <video autoplay loop muted src="./img/speaker 590x437 gif raw.webm"></video>
+                </div>
+            </div>
+        </div>
+
+        <div class="page12">
+            <h1>Our Best <span>loud sound</span> quality <br> Get Even Better</h1>
+            <div class="mic">
+                <div class="mic-content">
+                    <h2>Robust Built <br> Quality</h2>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolor nostrum illo a inventore, expedita, commodi exercitationem debitis fugiat eligendi velit dignissimos ipsum</p>
+                    <img src="./img/untitled (1) 3.png" alt="">
+                </div>
+                <div class="mic-box">
+                    <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Beatae quisquam necessitatibus unde laboriosam mollitia minus odit atque fugit, ut modi sint, enim quam tenetur placeat saepe? Beatae nesciunt aut voluptatem!</p>
+                    <img src="./img/untitled (2).png" alt="">
+                </div>
+            </div>
+        </div>
+
+
+
+
+
+         <div class="end-page">
+            <h1>Experience the Dynatone Difference</h1>
+
+           <div class="end-info">
+            <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Quod, rerum officia. Ea, facilis repudiandae vitae aperiam
+                laudantium ad voluptatum eveniet. Ducimus alias sed earum debitis, sint possimus voluptate. At, quas. </p>
+           </div>
+
+            <div class="field" id="searchform">
+                <input type="text" id="searchterm" placeholder="Enter Your Email" />
+                <button type="button" id="search">Contact Us</button>
+            </div>
+        </div> 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+    <special-footer></special-footer>
+    </div>
+            
+           <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.5/ScrollTrigger.min.js"
+            integrity="sha512-onMTRKJBKz8M1TnqqDuGBlowlH0ohFzMXYRNebz+yOcc5TQr/zAKsthzhuv0hiyUKEiQEQXEynnXCvNTOk50dg=="
+            crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+           <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.5/gsap.min.js"
+            integrity="sha512-7eHRwcbYkK4d9g/6tD/mhkf++eoTHwpNM9woBxtPUBWm67zeAfFC+HrdoE2GanKeocly/VxeLvIqwvCdk7qScg=="
+            crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+           <script src="https://cdn.jsdelivr.net/npm/locomotive-scroll@3.5.4/dist/locomotive-scroll.min.js"></script>
+          <script src="/js/headerfooter.js"></script>
+          <script src="/js/script.js"></script>
+</body>
+</html>
